@@ -29,11 +29,11 @@ const style = {
 
 const CountChart = () => {
 	return (
-		<div className='bg-white rounded-full w-full h-full'>
+		<div className=' rounded-full w-full h-full p-4'>
 			{/* Title */}
 			<div className='flex justify-between items-center '>
 				<h1 className='text-lg font-semibold'>Student</h1>
-				<Image src='/moreDark.png' alt='...' width={20} height={20} />
+				<Image src='/moreDark.png' alt='...' width={10} height={10} />
 			</div>
 			{/* Chart */}
 			<div className=' relative w-full h-[75%] '>
