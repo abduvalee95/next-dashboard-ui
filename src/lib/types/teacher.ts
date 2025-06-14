@@ -9,3 +9,9 @@ export type Teacher = {
 	classes: string[]
 	address: string
 }
+
+export type Subjects = {
+	id: number
+	teachers: string[]
+	name: string
+}
